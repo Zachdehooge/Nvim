@@ -10,5 +10,4 @@ end)
 
 
 require'lspconfig'.clangd.setup{}
-require'lspconfig'.golangci_lint_ls.setup{}
 
