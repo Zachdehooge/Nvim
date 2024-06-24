@@ -6,8 +6,7 @@ lsp_zero.on_attach(function(client, bufnr)
   lsp_zero.default_keymaps({buffer = bufnr})
 end)
 
+require('lspconfig').pyright.setup({})
+require('lspconfig').clangd.setup({})
+require'lspconfig'.lua_ls.setup{}
 -- here you can setup the language servers
-
-
-require'lspconfig'.clangd.setup{}
-
