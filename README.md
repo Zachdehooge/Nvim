@@ -6,3 +6,8 @@ TO ENABLE LUA LSP:
 * Make a folder titled `lsp` in the ~/.config folder
 * Put the folder in the `lsp` folder and export to path
 * `echo 'export PATH="${HOME}/.config/lsp/lua-language-server/bin:${PATH}"' >> ~/.bashrc`
+
+# KEYBINDS NVCHAD:
+- `Space + e` = Switch to tree from file
+- `-` = Drill up a directory
+- `Ctrl + ]` = Drill down a directory 
