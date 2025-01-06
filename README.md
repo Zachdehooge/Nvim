@@ -1,13 +1,11 @@
 # Nvim
-NVIM Config
+## NVChad Config
 
 TO ENABLE LUA LSP:
-* https://github.com/LuaLS/lua-language-server download and extract the linux tar.gz file from releases
-* Make a folder titled `lsp` in the ~/.config folder
-* Put the folder in the `lsp` folder and export to path
-* `echo 'export PATH="${HOME}/.config/lsp/lua-language-server/bin:${PATH}"' >> ~/.bashrc`
+* `brew install lua-language-server`
 
-# KEYBINDS NVCHAD:
-- `Space + e` = Switch to tree from file
-- `-` = Drill up a directory
-- `Ctrl + ]` = Drill down a directory 
+## Installation
+* Install NVChad using `git clone https://github.com/NvChad/starter ~/.config/nvim && nvim`
+* Delete the `.git`
+* Pull down files to the `/home/user/.config/nvim` folder
+* Enjoy :)
